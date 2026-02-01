@@ -44,10 +44,14 @@
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
       <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="index.html#intro"
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="index.html#about"
           class="brand-logo grey-blue-text">
           <img src="/assets/img/ProfilePic.png" class="circle img-responsive profile-pic" alt="avatar">
         </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="index.html#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>À propos</span></a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Projects section" href="index.html#projects" class="waves-effect waves-dark teal-text"><i
@@ -78,6 +82,10 @@
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
       <li class="bold">
+        <a aria-label="Navigate to the About section" href="index.html#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>À propos</span></a>
+      </li>
+      <li class="bold">
         <a aria-label="Navigate to the Projects section" href="index.html#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projets</span></a>
       </li>
@@ -96,15 +104,14 @@
   <!-- Main Content-->
   <main>
 
-    <h3 class="page-title white-text teal">Analyse des candidatures</h3>
+    <h3 class="page-title white-text teal">Suivi de l'utilisation des LLM</h3>
     <div class="container">
       <p>Voici un dashboard que j'ai réalisé chez l'un de mes clients.</p>
-      <p>Il s'agit de suivre l'utilisation des LLM et leur consommation en tokens.</p>
-      <p>Objectif business : définir des quotas à la minute afin de limiter la consommation des LLM.</p>
+      <p><u>Problématique</u> : suivre l'utilisation des LLM et définir des quotas à la minute pour limiter la consommation des LLM.</p>
       <div>Ci-dessous, le dashboard contient :</div>
       <ul style="list-style: disc; padding-left: 1.5rem; margin-top: 0;">
-        <li>● Des filtres : date, cas d'usage et modèle</li>
-        <li>● Des métriques et des graphiques</li>
+        <li>- Des filtres : date, cas d'usage et modèle</li>
+        <li>- Des métriques et des graphiques</li>
       </ul>
       <img src="/assets/img/llm_01.png" alt="Pie plot" style="width:100%; border: 1px solid black;">
       <img src="/assets/img/llm_02.png" alt="Pie plot" style="width:100%; border: 1px solid black;">
@@ -119,10 +126,12 @@
       <p>Les graphiques ci-dessus permettent d'analyser la distribution du nombre de requêtes par minute (1ère ligne)
         et la distribution du nombre de tokens totaux (2ème ligne).
       </p>
-      <p>Les valeurs hautes de ces graphiques (notamment le 95ème percentile) sont utilisées pour déterminer des quotas par minute
-        pour chaque couple cas d'usage - modèle.
-      </p>
-      <p>Le but est de contrôler la consommation des LLM en limitant leur utilisation.</p>
+      <p><u>Résultats</u> :</p>
+      <ul style="list-style: disc; padding-left: 1.5rem; margin-top: 0;">
+        <li>- Utilisation du dashboard par les Product Managers</li>
+        <li>- Utilisation des 95ème percentiles de chaque modèle pour déterminer des quotas par minute</li>
+        <li>- Limitation et contrôle de la consommation des LLM</li>
+      </ul>
       <a href="index.html#projects" class="btn teal">Retour aux projets</a>
     </div>
 

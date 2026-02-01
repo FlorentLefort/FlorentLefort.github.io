@@ -44,10 +44,14 @@
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
       <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="index.html#intro"
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="index.html#about"
           class="brand-logo grey-blue-text">
           <img src="/assets/img/ProfilePic.png" class="circle img-responsive profile-pic" alt="avatar">
         </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="index.html#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>À propos</span></a>
       </li>
       <li class="bold">
         <a aria-label="Navigate to the Projects section" href="index.html#projects" class="waves-effect waves-dark teal-text"><i
@@ -78,6 +82,10 @@
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
       <li class="bold">
+        <a aria-label="Navigate to the About section" href="index.html#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>À propos</span></a>
+      </li>
+      <li class="bold">
         <a aria-label="Navigate to the Projects section" href="index.html#projects" class="waves-effect waves-dark teal-text"><i
             class="mdi-av-my-library-books small"></i><span>Projets</span></a>
       </li>
@@ -98,20 +106,26 @@
 
     <h3 class="page-title white-text teal">Analyse des candidatures</h3>
     <div class="container">
-      <p>Voici un exemple de création de dashboard que j'ai réalisé chez l'un de mes clients.</p>
-      <p>Il s'agit d'analyser les différents types de candidatures ainsi que leur évolution dans le temps.</p>
+      <p>Voici un dashboard que j'ai réalisé chez l'un de mes clients.</p>
+      <p><u>Problématique</u> : difficultés pour analyser les différents types de candidatures ainsi que leur évolution dans le temps.</p>
       <div>Ci-dessous, le dashboard contient 2 parties :</div>
       <ul style="list-style: disc; padding-left: 1.5rem; margin-top: 0;">
-        <li>● Un volet de filtres à gauche</li>
-        <li>● Un volet de restitution à droite</li>
+        <li>- Un volet de filtres à gauche</li>
+        <li>- Un volet de restitution à droite</li>
       </ul>
       <img src="/assets/img/ami_01.png" alt="Pie plot" style="width:100%; border: 1px solid black;">
       <p>Le diagramme circulaire permet de représenter la part de chaque type de candidatures.</p>
       <img src="/assets/img/ami_02.png" alt="Sankey plot" style="width:100%; border: 1px solid black;">
-      <p>Le diagramme de Sankey permet de suivre le parcours d'un type de candidature de la création jusqu'au refus/annulation/accepatation.</p>
+      <p>Le diagramme de Sankey permet de suivre le parcours d'un type de candidature de la création jusqu'au refus/annulation/acceptation.</p>
       <p>La largeur des flèches est proportionnelle au volume de candidatures à chaque étape.</p>
       <img src="/assets/img/ami_03.png" alt="Distribution plots" style="width:100%; border: 1px solid black;">
       <p>Les 2 distributions permettent de connaitre les délais d'acceptation en jours des candidatures depuis leur création.</p>
+      <p><u>Résultats</u> :</p>
+      <ul style="list-style: disc; padding-left: 1.5rem; margin-top: 0;">
+        <li>- Utilisation du dashboard par les Product Managers</li>
+        <li>- Utilisation du diagramme de Sankey pour connaitre le % de candidatures acceptées pour un canal d'acquisition et une période données</li>
+        <li>- Utilisation des distributions pour savoir si un recruteur répond rapidement après avoir reçu une candidature</li>
+      </ul>
       <a href="index.html#projects" class="btn teal">Retour aux projets</a>
     </div>
 
